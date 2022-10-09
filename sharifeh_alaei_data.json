@@ -1,0 +1,401 @@
+{
+  "username": "sharifeh_alaei",
+  "email": "sharifeh.alaei@gmail.com",
+  "country": "Netherlands",
+  "company": "",
+  "name": "sharifeh Alaei",
+  "city": "Amsterdam",
+  "website": "",
+  "job_title": "",
+  "personal_first_name": "sharifeh",
+  "personal_last_name": "Alaei",
+  "graduation_year": "2024",
+  "timezone": "Asia/Tehran",
+  "is_professional": false,
+  "hackos": 306,
+  "favorite_challenges": [],
+  "challenges_created": [],
+  "other_emails": [],
+  "all_schools": [],
+  "snippets": [],
+  "submissions": [
+    {
+      "contest": "Master",
+      
+      "challenge": "Say \"Hello, World!\" With Python",
+      "code": "if __name__ == '__main__':\n    print(\"Hello World\")\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Say \"Hello, World!\" With Python",
+      "code": "\nprint(\"Hello To every body\")\nmyStr = \"This is a sunny day\"\nprint(myStr)\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Say \"Hello, World!\" With Python",
+      "code": "\nmyStr = \"Hello, World!\"\nprint(myStr)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Python If-Else",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n\n\nif __name__ == '__main__':\n    num = int(input().strip())\nif (num % 2) != 0:  #odd\n    print (\"Weird\")\nelse:  #even\n    if ( (1 \u003c num \u003c 6) or (num \u003e 20) ):\n      print (\"Not Weird\") \n    if ( 5 \u003c num \u003c 21):\n      print (\"Weird\")\n       \n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Arithmetic Operators",
+      "code": "if __name__ == '__main__':\n    a = int(input())\n    b = int(input())\n    print (a+b)\n    print (a-b)\n    print (a*b)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Python: Division",
+      "code": "if __name__ == '__main__':\n    a = int(input())\n    b = int(input())\n    print (a//b)\n    print(a/b)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Loops",
+      "code": "if __name__ == '__main__':\n    n = int(input())\nfor x in range(n):\n    print(x**2)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Write a function",
+      "code": "def is_leap(year):\n    leap = False\n    if (year % 4 == 0 and year % 400 == 0):\n        leap = True\n    elif (year % 100 == 0):\n        leap = False\n    return leap\n\n",
+      "score": 0.8,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Write a function",
+      "code": "def is_leap(year):\n    leap = False\n    if (year % 4 == 0 and year % 400 == 0):\n        leap = True\n    elif (year % 100 == 0):\n        leap = False\n    return leap\n\n",
+      "score": 0.8,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Write a function",
+      "code": "def is_leap(year):\n    leap = False\n    if (year % 4 == 0 and year % 400 == 0):\n        leap = True\n    elif (year % 100 == 0):\n        leap = False\n    return leap\n\n",
+      "score": 0.8,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Write a function",
+      "code": "def is_leap(year):\n    leap = False\n    if (year % 4 == 0):\n        leap = True\n    if (year % 100 == 0):\n        leap = False\n    if (year % 400 == 0):\n        leap = True\n    return leap\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Print Function",
+      "code": "if __name__ == '__main__':\n    n = int(input())\n    \nfor i in range(1,n+1):\n    print(i,end=\"\")\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "List Comprehensions",
+      "code": "if __name__ == '__main__':\n    x = int(input())\n    y = int(input())\n    z = int(input())\n    n = int(input())\ncrdnt = [\n  [i, j, k] \n    for i in range(x + 1)\n    for j in range(y + 1)\n    for k in range(z + 1)\n    if sum([i, j, k]) != n\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "List Comprehensions",
+      "code": "if __name__ == '__main__':\n    x = int(input())\n    y = int(input())\n    z = int(input())\n    n = int(input())\ncrdnt = [\n  [i, j, k] \n    for i in range(x + 1)\n    for j in range(y + 1)\n    for k in range(z + 1)\n    if sum([i, j, k]) != n\n]\nprint(crdnt)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Find the Runner-Up Score!  ",
+      "code": "if __name__ == '__main__':\n    n = int(input())\n    arr = map(int, input().split())\n    \n    arr = list(dict.fromkeys(arr))\n    \n   \n    arr.sort()\n    \n    print(arr[-2])\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Nested Lists",
+      "code": "if __name__ == '__main__':\n       \nstudent=[]\nmark=[]\nfor q in range(int(input())):\n\n    name = input()\n    score = float(input())\n    student.append([name,score])\n    mark.append(score)\n\nmark=sorted(set(mark))\n\nname=[]\nm=mark[1]\n\nfor i in student:        \n    if m==i[1]:\n        name.append(i[0])\n\nname.sort()\nfor x in name:\n    print(x)        \n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Nested Lists",
+      "code": "if __name__ == '__main__':\n       \n    student=[]\n    mark=[]\n    for q in range(int(input())):\n\n    name = input()\n    score = float(input())\n    student.append([name,score])\n    mark.append(score)\n\n    mark=sorted(set(mark))\n\n    name=[]\n    m=mark[1]\n\n    for i in student:        \n        if m==i[1]:\n            name.append(i[0])\n\n    name.sort()\n    for x in name:\n        print(x)        \n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Nested Lists",
+      "code": "student=[]\nmark=[]\nfor q in range(int(input())):\n\n    name = input()\n    score = float(input())\n    student.append([name,score])\n    mark.append(score)\n\nmark=sorted(set(mark))\n\nname=[]\nm=mark[1]\n\nfor i in student:        \n    if m==i[1]:\n        name.append(i[0])\n\nname.sort()\nfor x in name:\n    print(x)        \n    \n    \n    \n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Finding the percentage",
+      "code": "if __name__ == '__main__':\n    n = int(input())\n    student_marks = {}\n    for _ in range(n):\n        name, *line = input().split()\n        scores = list(map(float, line))\n        student_marks[name] = scores\n    query_name = input()\n    \n    print(\"{:.2f}\".format(sum(student_marks[query_name]) / 3))\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Text Alignment",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nn = int(input())\n\n#top_peak\nfor i in range(n):\na = i*2+1 \np = str('H'*a).center(2*n-1,' ')\nprint(p)\n\n#upper_mid\nfor i in range(n+1):\ns = str('H'*n).center(2*n-1,' ')\nt = str('H'*n).center(n*6+1,' ') print(s+t)\n\n#mid_line\nfor i in range(int((n+1)/2)):\nm = str('H'*(5*n)).center(6*n,' ') print(m)\n\n#lower_mid\nfor i in range(n+1):\ns = str('H'*n).center(2*n-1,' ') t = str('H'*n).center(n*6+1,' ') print(s+t)\n\n#bottom_peak\nfor i in range(n+1):\na = (n-1-i)*2+1 p = str('H'*a).center(2*n-1,' ') print(p.rjust(n*6-1,' '))\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Text Alignment",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nn = int(input())\n\n#top_peak\nfor i in range(n):\n    a = i*2+1 \n    p = str('H'*a).center(2*n-1,' ')\n    print(p)\n\n#upper_mid\nfor i in range(n+1):\n    s = str('H'*n).center(2*n-1,' ')\n    t = str('H'*n).center(n*6+1,' ') print(s+t)\n\n#mid_line\nfor i in range(int((n+1)/2)):\n    m = str('H'*(5*n)).center(6*n,' ') print(m)\n\n#lower_mid\nfor i in range(n+1):\n    s = str('H'*n).center(2*n-1,' ') t = str('H'*n).center(n*6+1,' ') print(s+t)\n\n#bottom_peak\nfor i in range(n+1):\n    a = (n-1-i)*2+1 p = str('H'*a).center(2*n-1,' ') print(p.rjust(n*6-1,' '))\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Text Alignment",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nn = int(input())\n\n#top_peak\nfor i in range(n):\n    a = i*2+1 \n    p = str('H'*a).center(2*n-1,' ')\n    print(p)\n\n#upper_mid\nfor i in range(n+1):\n    s = str('H'*n).center(2*n-1,' ')\n    t = str('H'*n).center(n*6+1,' ') \n    print(s+t)\n\n#mid_line\nfor i in range(int((n+1)/2)):\n    m = str('H'*(5*n)).center(6*n,' ') \n    print(m)\n\n#lower_mid\nfor i in range(n+1):\n    s = str('H'*n).center(2*n-1,' ') t = str('H'*n).center(n*6+1,' ') print(s+t)\n\n#bottom_peak\nfor i in range(n+1):\n    a = (n-1-i)*2+1 p = str('H'*a).center(2*n-1,' ') \n    print(p.rjust(n*6-1,' '))\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Text Alignment",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nn = int(input())\n\n#top_peak\nfor i in range(n):\n    a = i*2+1 \n    p = str('H'*a).center(2*n-1,' ')\n    print(p)\n\n#upper_mid\nfor i in range(n+1):\n    s = str('H'*n).center(2*n-1,' ')\n    t = str('H'*n).center(n*6+1,' ') \n    print(s+t)\n\n#mid_line\nfor i in range(int((n+1)/2)):\n    m = str('H'*(5*n)).center(6*n,' ') \n    print(m)\n\n#lower_mid\nfor i in range(n+1):\n    s = str('H'*n).center(2*n-1,' ') \n    t = str('H'*n).center(n*6+1,' ') \n    print(s+t)\n\n#bottom_peak\nfor i in range(n+1):\n    a = (n-1-i)*2+1 \n    p = str('H'*a).center(2*n-1,' ') \n    print(p.rjust(n*6-1,' '))\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Text Wrap",
+      "code": "\n\ndef wrap(string, max_width):\n    return '\\n'.join(textwrap.wrap(string , max_width))\n#def wrap(s, mw):\n #   return '\\n'.join(textwrap.wrap(s, mw)) \n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Text Wrap",
+      "code": "\n\ndef wrap(string, max_width):\n    return '\\n'.join(textwrap.wrap(string , max_width))\n\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Tuples ",
+      "code": "if __name__ == '__main__':\n    n = int(input())\n    integer_list = map(int, input().split())\n    t=tuple(integer_list)\n    print(hash(t))\n    \n    \n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Lists",
+      "code": "if __name__ == '__main__':\n    n = int(input())\n    l = []\n    for _ in range(n):\n        s = input().split()\n        if s[0] != \"print\":\n          s[0] += \"(\" + \",\".join(s[1:]) + \")\"\n           eval(\"l.\"+s[0])\n        else:\n           print(l)\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Lists",
+      "code": "if __name__ == '__main__':\n    n = int(input())\n    l = []\n    for _ in range(n):\n        s = input().split()\n        if s[0] != \"print\":\n          s[0] += \"(\" + \",\".join(s[1:]) + \")\"\n          eval(\"l.\"+s[0])\n        else:\n           print(l)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Birthday Cake Candles",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'birthdayCakeCandles' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts INTEGER_ARRAY candles as parameter.\n#\n\ndef birthdayCakeCandles(candles):\n    candles.sort()\n    count = 0\n    tallest = candles[-1]\n\n\n    for i in candles:\n        if i == tallest:\n            count += 1\n    return count\n\nif __name__ == '__main__':\n\n\n    candles_count = int(input().strip())\n\n    candles = list(map(int, input().rstrip().split()))\n\n    result = birthdayCakeCandles(candles)\n \n    print(result)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Number Line Jumps",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n\n\ndef kangaroo(x1, v1, x2, v2):\n    # Write your code here\n    if (v2\u003ev1):\n        return \"NO\"\n    else:\n        r = 1\n        for i in range(x2-x1):\n            if(x1+(v1*r) == x2+(v2*r)):\n                return \"YES\"\n            r+=1\n        return \"NO\"\n    \nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    first_multiple_input = input().rstrip().split()\n\n    x1 = int(first_multiple_input[0])\n\n    v1 = int(first_multiple_input[1])\n\n    x2 = int(first_multiple_input[2])\n\n    v2 = int(first_multiple_input[3])\n\n    result = kangaroo(x1, v1, x2, v2)\n\n    fptr.write(result + '\\n')\n\n    fptr.close()\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Viral Advertising",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'viralAdvertising' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts INTEGER n as parameter.\n#\n\ndef viralAdvertising(n):\n    likes = [2]\n    for i in range(n-1):\n        likes.append(3*(likes[-1])//2)\n    return sum(likes)\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    n = int(input().strip())\n\n    result = viralAdvertising(n)\n\n    fptr.write(str(result) + '\\n')\n\n    fptr.close()\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Recursive Digit Sum",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'superDigit' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts following parameters:\n#  1. STRING n\n#  2. INTEGER k\n#\n\ndef superDigit(n, k):\n    # Write your code here\n    if(int(n)\u003c=9):\n        if((int(n)*k)\u003c=9):\n            return(int(n)*k)\n            pass\n        else:\n            return superDigit(int(n)*k,1)\n    \n    temp=str(n)\n    s=0\n    for a in temp:\n        s+=int(a)\n    return superDigit(s,k)\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    first_multiple_input = input().rstrip().split()\n\n    n = first_multiple_input[0]\n\n    k = int(first_multiple_input[1])\n\n    result = superDigit(n, k)\n\n    fptr.write(str(result) + '\\n')\n\n    fptr.close()\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Insertion Sort - Part 1",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'insertionSort1' function below.\n#\n# The function accepts following parameters:\n#  1. INTEGER n\n#  2. INTEGER_ARRAY arr\n#\n\ndef insertionSort1(n, arr):\n    # Write your code here\n    j = n-1\n    store = arr[j]\n    \n    for i in range(j, -1, -1):\n        if store \u003c arr[i-1] and i \u003e= 1:\n            arr[i] = arr[i-1]\n            print(' '.join(str(x) for x in arr))\n        else: \n            arr[i] = store\n            print(' '.join(str(x) for x in arr))\n            break \n    \n\nif __name__ == '__main__':\n    n = int(input().strip())\n\n    arr = list(map(int, input().rstrip().split()))\n\n    insertionSort1(n, arr)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Insertion Sort - Part 2",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n\n\ndef insertionSort2(n, arr):\n    for i in range(1,n):\n        for j in range(i):\n            if arr[j] \u003e arr[i]:\n                arr[i], arr[j] = arr[j], arr[i]\n        print(*arr)\n\nif __name__ == '__main__':\n    n = int(input().strip())\n\n    arr = list(map(int, input().rstrip().split()))\n\n    insertionSort2(n, arr)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Set .discard(), .remove() \u0026 .pop()",
+      "code": "n = int(input())\ns = set(map(int, input().split()))\nfor _ in range(int(input())):\n    command = input().split()\n    arg, command = [int(i) for i in command[1:]], command[0]\n    getattr(s, command)(*arg)\nprint(sum(s))\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Set .discard(), .remove() \u0026 .pop()",
+      "code": "n = int(input())\ns = set(map(int, input().split()))\nfor _ in range(int(input())):\n    command = input().split()\n    arg, command = [int(i) for i in command[1:]], command[0]\n    getattr(s, command)(*arg)\nprint(sum(s))\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Company Logo",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n\n\n\nif __name__ == '__main__':\n    s = sorted(input())\n    count_dict = Counter(s)\n    for k, v in count_dict.most_common(3):\n        print(k,v)\n",
+      "score": 0.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Company Logo",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\nfrom collections import Counter\n\n\ndef MostOccurence(s):\n    s = sorted([a for a in s])\n    x = Counter(s)\n    first_3 = x.most_common(3)\n    for i,j in first_3:\n        print(i, j)\n    \nif __name__ == '__main__':\n    s = input()\n    MostOccurence(s)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Word Order",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nwords = {}\nn = int(input())\nfor _ in range(n):\n    word = input()\n    words[word] = words.get(word, 0) +1\nprint(len(words))\nfor _ in words.values():\n    print(_,end= ' ')\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Calendar Module",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nimport calendar\n\ndef find_weekday(year,month,day):\n    weekdays = ['MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY','SUNDAY']\n    return weekdays[calendar.weekday(year,month,day)]\n    \nmonth, day, year = map(int,input().split())\nweekday = find_weekday(year, month, day)\nprint(weekday)\n",
+      "score": 1.0,
+      "language": "pypy3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Time Delta",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\nfrom datetime import datetime as dt\n\ndef time_delta(t1, t2):\n    fmt = \"%a %d %b %Y %H:%M:%S %z\"\n    t1_dt = dt.strptime(t1, fmt)\n    t2_dt = dt.strptime(t2, fmt)\n    \n    if (t1_dt.year + t2_dt.year) \u003c= 6000:\n        return str(abs(int((t1_dt - t2_dt).total_seconds())))\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    t = int(input())\n\n    for t_itr in range(t):\n        t1 = input()\n\n        t2 = input()\n\n        delta = time_delta(t1, t2)\n\n        fptr.write(delta + '\\n')\n\n    fptr.close()\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Exceptions",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nrepeats = int(input())\n\nfor i in range(repeats):\n    a, b = input().split()\n    try:\n        print(int(a)//int(b))\n    except Exception as e:\n        print('Error Code:', e)\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Exceptions",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nrepeats = int(input())\n\nfor i in range(repeats):\n    a, b = input().split()\n    try:\n        print(int(a)//int(b))\n    except Exception as e:\n        print('Error Code:', e)\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Incorrect Regex",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nimport re\nt = int(input())\n\nfor i in range(t):\n    s = input()\n    try:\n        print(bool(re.compile(s)))\n    except re.error:\n        print('False')\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Zipped!",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nN,X=map(int,input().split())\n\na=[list(map(float,input().split())) for i in range(X)]\nb=[print(round(sum(i)/len(i),1)) for i in list(zip(*a))]\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Athlete Sort",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\ndef func(x):\n        return x[k]\n t = []\n arr = sorted(arr,key = func)\n for i in range(len(arr)):\n        for j in range(m):\n            t.append(arr[i][j]) \n        print(*t)\n        t.clear()\n\n",
+      "score": 0.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Athlete Sort",
+      "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\ndef func(x):\n        return x[k]\nt = []\narr = sorted(arr,key = func)\nfor i in range(len(arr)):\n        for j in range(m):\n            t.append(arr[i][j]) \n        print(*t)\n        t.clear()\n\n",
+      "score": 0.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "ginortS",
+      "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nS=list(input())\n\nnumber=[]\nlower=[]\nupper=[]\nfor i in S:\n    if i.isdigit():\n        number.append(i)\n    else:\n        if i.isupper():\n            upper.append(i)\n        else:\n            lower.append(i)\n\na=sorted(list(map(int,number)))\nb=list(map(str,sorted(a,key=lambda x:x%2==0)))\n\nprint(''.join(sorted(lower))+''.join(sorted(upper))+''.join(b))\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Map and Lambda Function",
+      "code": "cube = lambda x: # complete the lambda function \n\n\n\ndef fibonacci(n):\n    n1, n2 = 0, 1\n    a=[n1,n2]\n    if n\u003e1:\n        for i in range(2,n):\n            n3 = n1 + n2\n            n1 = n2\n            n2 = n3\n            a.append(n3)  \n        return(a)\n    elif n==1:\n        return[n1]\n    else:\n        return[]\n",
+      "score": 0.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Map and Lambda Function",
+      "code": "cube = lambda x:pow(x,3) # complete the lambda function \n\ndef fibonacci(n):\n    n1, n2 = 0, 1\n    a=[n1,n2]\n    if n\u003e1:\n        for i in range(2,n):\n            n3 = n1 + n2\n            n1 = n2\n            n2 = n3\n            a.append(n3)  \n        return(a)\n    elif n==1:\n        return[n1]\n    else:\n        return[]\n\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "XML 1 - Find the Score",
+      "code": "\n\ndef get_attr_number(node):\n    # your code goes here\n    attr_number = len(node.attrib)\n    for child in node.findall('.//'):\n        attr_number += len(child.attrib)\n    return attr_number\n\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "XML2 - Find the Maximum Depth",
+      "code": "\n\nmaxdepth = 0\ndef depth(elem, level):\n    global maxdepth\n    while True:\n        if elem.findall(\".\"+maxdepth*\"/*\") != []:\n            maxdepth+=1\n        else:\n            break\n    maxdepth = maxdepth -1\n\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Standardize Mobile Number Using Decorators",
+      "code": "import re\ndef wrapper(f):\n    def fun(l):\n        for i,j in enumerate(l):\n            no=re.findall(r\"[\\d\\+]{0,3}([\\d]{10})\\b\",j)[0]\n            l[i]=no\n        l=['+91 '+i[0:5]+' '+i[5:] for i in sorted(l)]\n        f(l)\n    return fun\n\n",
+      "score": 1.0,
+      "language": "python3"
+    },
+    {
+      "contest": "Master",
+      "challenge": "Decorators 2 - Name Directory",
+      "code": "\n\ndef person_lister(f):\n    def inner(people):\n        for i in people:\n            i[2] = int(i[2])\n        people.sort(key=operator.itemgetter(2))\n        return [f(person) for person in people]\n            \n    return inner\n\n",
+      "score": 1.0,
+      "language": "python3"
+    }
+  ],"teams":[],"contest_participations":[{"jobs_consent":null,"contest":"Master"}],"forum_comments":[],"all_ratings":[],"contest_medals":[],"survey_results":[],"messages_sent":[],"run_codes":[],"contests_created":[],"job_applications":[],"skills_test":[]}
